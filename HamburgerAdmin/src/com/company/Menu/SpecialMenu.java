@@ -84,10 +84,12 @@ public class SpecialMenu implements Menu {
                 case 4:
                     deleteMenuEntry();
                     break;
-                default:
+                case 5:
                     System.out.println("Exiting");
                     flag=false;
                     break;
+                default:
+                    System.out.println("Invalid entry");
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Location;
 
 public class Location {
     private double latitude;

@@ -1,9 +1,11 @@
-package com.company;
+package com.company.Location;
+
+import com.company.Location.Location;
 
 import java.util.*;
 
 public class Franchise{
-    Map<String,Location> franchiseTable = new HashMap<>();
+    Map<String, Location> franchiseTable = new HashMap<>();
     Scanner input = new Scanner(System.in);
 
     /**
@@ -29,7 +31,9 @@ public class Franchise{
      */
     public void listFranchise() {
         for(Map.Entry<String,Location> loc :  franchiseTable.entrySet()){
-            System.out.println(loc.getKey()+":"+loc.getValue());
+            System.out.println(loc.getKey());
+            System.out.println("=============");
+            System.out.println(loc.getValue());
         }
     }
 

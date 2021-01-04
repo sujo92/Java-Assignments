@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Menu;
 
 public class Item {
     private String name;

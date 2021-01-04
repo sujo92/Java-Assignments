@@ -1,6 +1,10 @@
 package com.company;
 
-import java.util.Locale;
+import com.company.Location.Franchise;
+import com.company.Menu.MainMenu;
+import com.company.Menu.Menu;
+import com.company.Menu.SpecialMenu;
+
 import java.util.Scanner;
 
 /**

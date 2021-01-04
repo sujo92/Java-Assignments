@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Menu;
 
 public interface Menu {
     public void createMenuEntry();
